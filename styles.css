@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto:ital@1&display=swap');
+
+
+:root{
+    --clr-gray: #f0f7f8;
+    --clr-gray-200: #cfd8dc;
+    --radius: 0.2rem;
+}
+body{
+    font-family: "Montserrat";
+    background-color: var(--clr-gray);
+}
+
+.nav{
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--clr-gray-200);
+    margin:0;
+    padding: 0.35rem 1rem;
+    border-radius:var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.change{
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--clr-gray-200);
+    margin:0;
+    padding: 1.35rem 1rem;
+    border-radius:var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position:absolute;
+    left: 1%;
+    top: -90.5%;
+    width: 98%;
+}
+
+.abs{
+    position: absolute;
+    left: 25%;
+    top: 17%;
+    border-radius: 20%;
+}
+
+.nav-item{
+    list-style: none;
+    display: inline;
+    margin-right:2rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:black;
+    transition:all 200ms ease-in;
+}
+
+.nav-item a:hover{
+    color: turquoise;
+}
+
+.nav-item:first-child{
+    margin-left: auto;
+}
+
+.btn-primary{
+    font-family: "Montserrat";
+    font-size:1rem;
+    background:cyan;
+    border:none;
+    outline:none;
+    border-radius:var(--radius);
+    padding:0.5rem 1rem;
+    cursor:pointer;
+    transition:all 200ms ease-in;
+
+}
+.btn-primary:hover{
+    background-color:#008b8b;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+.text-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    font-size: 3rem;
+}
+.round-image{
+    border-radius: 20%;
+    border: double black;
+    margin-bottom: 2rem;
+}
+
+.paragraph{
+    text-align: justify;
+    padding: 0px 16rem 0px 16rem;
+    margin: 0px;
+    column-gap: 2px;
+    font-size: 1rem;
+    color: black;
+}
+
+.paragraph-title{
+    font-size: 3rem;
+    font-family: Dongle;
+    column-gap: 2px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+li{
+    list-style-type: square;
+}
+
+.term{
+    background-color: #2E5A88;
+    border-radius: 20%;
+    color: white;
+    padding: 0.2rem;
+}
+
+.image{
+    display: inline;
+    margin-left:20%;
+    border: 1px solid black;
+    border-radius: 10%;
+
+}
+
+.image-text{
+    font-size: 2rem;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    margin-left: 25%;
+}
+.last{
+    margin-left: 29% !important;
+}
+
+.par{
+    display: inline-block;
+    color: black;
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.special-text{
+    font-size: 1.5rem;
+    font:'times new roman';
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.repetition{
+    display: table;
+    background-color:#008b8b;
+    color: whitesmoke;
+}
+
+.double-con{
+    display: table;
+    background-color: wheat;
+}
+
+.round-image{
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.double-meaning{
+    display: inline-table;
+    background-color:#c25a74;
+    color: whitesmoke;
+}
+
+.antithesis{
+    display: inline-table;
+    background-color:#5ec25a;
+    color: black;
+}
+
+.highlight{
+    display: table;
+}
+
+.quote{
+    font-family: 'Roboto', sans-serif;
+}
+
+.attempt{
+    border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+
+  display: block;
+  position: relative;
+  border: solid 3px #6e7491;
+  padding: 40px 60px;
+  max-width: 800px;
+  width: 70%;
+  margin: 100px auto 0;
+  font-size: 17px;
+  line-height: 28px;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+}
+
+.change{
+    margin-top: 40%;
+    margin-bottom: 100%;
+}
+
+.pathos{
+    background-color:turquoise;
+    size: 1.35rem;
+}
+
+.title{
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+
+}
+
