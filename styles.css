@@ -36,7 +36,7 @@ body{
     align-items: center;
     position:absolute;
     left: 1%;
-    top: -85%;
+    top: -82%;
     width: 98%;
 }
 
@@ -206,7 +206,7 @@ li{
 }
 
 .attempt{
-    border-top-left-radius: 37px 140px;
+border-top-left-radius: 37px 140px;
   border-top-right-radius: 23px 130px;
   border-bottom-left-radius: 110px 19px;
   border-bottom-right-radius: 120px 24px;
@@ -243,5 +243,10 @@ li{
     font-family: 'Merriweather', serif;
     text-align: center;
 
+}
+
+.persep-img{
+    display: inline;
+    border-radius: 5%; 
 }
 
